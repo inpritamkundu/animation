@@ -1,0 +1,26 @@
+.image {
+  border-radius: 50%;
+}
+
+/* transform */
+.image {
+  /* to translate or change the x y axis */
+  /* transform: translate(200px, 250px); */
+
+  /* for stretching or scaling the image */
+  /* transform: scale(2); */
+
+  /* rotating the object */
+  /* transform: rotate(20deg); */
+}
+/* transition */
+.image {
+  /* simple transition */
+  /* transition: 2s; */
+
+  /* element wise transition */
+  transition: transform 0.3s 1s ease-in; /* time delay animation-type */
+}
+.image:hover {
+  transform: rotate(360deg);
+}
